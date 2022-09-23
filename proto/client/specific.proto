@@ -27,7 +27,7 @@ service SpecificQuery {
 
 // Requests batch swap data associated with a given height and trading pair from the view service.
 message BatchSwapOutputDataRequest {
-    uint64 height = 1;
+    string height = 1;
     dex.TradingPair trading_pair = 2;
 }
 
