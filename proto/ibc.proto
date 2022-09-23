@@ -1,7 +1,7 @@
 syntax = "proto3";
 option go_package = "github.com/penumbra-zone/penumbra/proto/go-proto";
 
-import "ibc/core/connection/v1/tx.proto";
+//import "ibc/core/connection/v1/tx.proto";
 import "ibc/core/connection/v1/connection.proto";
 
 import "ibc/core/channel/v1/tx.proto";
