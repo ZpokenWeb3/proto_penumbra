@@ -6,7 +6,6 @@ import "crypto.proto";
 import "chain.proto";
 import "dex.proto";
 import "stake.proto";
-import "proofs.proto";
 
 // Methods for accessing chain state that are "specific" in the sense that they
 // request specific portions of the chain state that could reveal private
